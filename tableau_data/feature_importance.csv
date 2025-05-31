@@ -1,0 +1,31 @@
+Feature,Importance,Model
+Contract_Two year,0.151,Logistic Regression
+InternetService_Fiber optic,0.117,Logistic Regression
+Contract_One year,0.071,Logistic Regression
+tenure,0.066,Logistic Regression
+MonthlyToTotalRatio,0.03,Logistic Regression
+TotalCharges,0.015,Logistic Regression
+MonthlyCharges,0.014,Logistic Regression
+PaymentMethod_Electronic check,0.012,Logistic Regression
+OnlineSecurity_Yes,0.011,Logistic Regression
+TechSupport_Yes,0.01,Logistic Regression
+TotalCharges,0.149,Random Forest
+MonthlyToTotalRatio,0.149,Random Forest
+MonthlyCharges,0.144,Random Forest
+tenure,0.115,Random Forest
+InternetService_Fiber optic,0.04,Random Forest
+PaymentMethod_Electronic check,0.037,Random Forest
+gender_Male,0.025,Random Forest
+PaperlessBilling_Yes,0.024,Random Forest
+Contract_Two year,0.023,Random Forest
+OnlineSecurity_Yes,0.022,Random Forest
+MonthlyToTotalRatio,0.301,Gradient Boosting
+InternetService_Fiber optic,0.192,Gradient Boosting
+PaymentMethod_Electronic check,0.124,Gradient Boosting
+Contract_Two year,0.066,Gradient Boosting
+Contract_One year,0.051,Gradient Boosting
+MonthlyCharges,0.05,Gradient Boosting
+TotalCharges,0.047,Gradient Boosting
+tenure,0.029,Gradient Boosting
+PaperlessBilling_Yes,0.024,Gradient Boosting
+InternetService_No,0.02,Gradient Boosting

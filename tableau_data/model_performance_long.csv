@@ -1,0 +1,36 @@
+Model,Metric,Value
+Logistic Regression,Accuracy,0.809
+Tuned Logistic Regression,Accuracy,0.806
+Gradient Boosting,Accuracy,0.798
+LightGBM,Accuracy,0.793
+Random Forest,Accuracy,0.786
+XGBoost,Accuracy,0.784
+Decision Tree,Accuracy,0.745
+Logistic Regression,Precision,0.672
+Tuned Logistic Regression,Precision,0.674
+Gradient Boosting,Precision,0.655
+LightGBM,Precision,0.625
+Random Forest,Precision,0.623
+XGBoost,Precision,0.608
+Decision Tree,Precision,0.518
+Logistic Regression,Recall,0.529
+Tuned Logistic Regression,Recall,0.524
+Gradient Boosting,Recall,0.495
+LightGBM,Recall,0.513
+Random Forest,Recall,0.484
+XGBoost,Recall,0.492
+Decision Tree,Recall,0.43
+Logistic Regression,F1 Score,0.592
+Tuned Logistic Regression,F1 Score,0.59
+Gradient Boosting,F1 Score,0.564
+LightGBM,F1 Score,0.564
+Random Forest,F1 Score,0.545
+XGBoost,F1 Score,0.544
+Decision Tree,F1 Score,0.47
+Logistic Regression,ROC AUC,0.848
+Tuned Logistic Regression,ROC AUC,0.849
+Gradient Boosting,ROC AUC,0.839
+LightGBM,ROC AUC,0.834
+Random Forest,ROC AUC,0.824
+XGBoost,ROC AUC,0.822
+Decision Tree,ROC AUC,0.679
