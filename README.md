@@ -15,6 +15,7 @@ The analysis uses the Telco Customer Churn dataset, which contains information a
 - `plots/`: Directory containing EDA visualizations
 - `model_results/`: Directory containing model evaluation plots and metrics
 - `tableau_data/`: Directory containing prepared data files for Tableau
+- `Telco Customer Dashboard Overview.twb`: Tableau workbook with interactive dashboards for churn analysis
 
 ## Key Findings
 - Month-to-month contracts have significantly higher churn rates
@@ -50,8 +51,22 @@ The analysis uses the Telco Customer Churn dataset, which contains information a
 4. Review the generated report and visualizations
 
 ## Tableau Visualizations
-The `tableau_data/` directory contains prepared CSV files for creating Tableau dashboards focused on:
+The project includes a complete Tableau workbook (`Telco Customer Dashboard Overview.twb`) with interactive dashboards for analyzing customer churn. The dashboards provide:
+
+- Executive overview with key churn metrics and trends
+- Customer segmentation analysis
+- Service impact visualization
+- Churn risk assessment with customizable threshold
+- Model performance evaluation
+
+The `tableau_data/` directory contains the prepared CSV files that power these dashboards:
 - Customer demographics and churn rates
 - Service impact analysis
 - Churn prediction probabilities
 - Model performance metrics
+
+### Using the Tableau Dashboard
+1. Open the `.twb` file with Tableau Desktop or Tableau Reader
+2. Navigate between dashboard tabs to explore different aspects of the churn analysis
+3. Use interactive filters to segment customers and identify high-risk groups
+4. Adjust the churn risk threshold parameter to customize retention targeting
